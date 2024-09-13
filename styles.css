@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #1F2937;
+}
+
+/* Headah */
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.header-nav a {
+    color: #E5E7EB;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+/* Heroic */
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.btn-signup {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.hero-image {
+    max-width: 40%;
+}
+
+.image-placeholder {
+    background-color: #4B5563;
+    width: 100%;
+    padding-top: 56.25%;
+    position: relative;
+    color: #9CA3AF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-placeholder::before {
+    content: "this is a placeholder for an image";
+    position: absolute;
+    color: #9CA3AF;
+}
+
+/* Inside: Fo */
+.info {
+    padding: 50px;
+    text-align: center;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    border: 2px solid #3882F6;
+    padding: 20px;
+    width: 22%;
+    box-sizing: border-box;
+}
+
+/* we've got you on record */
+.quote {
+    background-color: #E5E7EB;
+    padding: 50px;
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+/* Lights, Camera, Action */
+.cta {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 30px;
+    text-align: center;
+}
+
+.cta p {
+    margin: 0;
+}
+
+.cta-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cta-content p:first-child {
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+/* another name for a soccer player */
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
