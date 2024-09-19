@@ -1,150 +1,197 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #1F2937;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: #1f2937;
 }
 
 /* Headah */
 .header {
-    background-color: #1F2937;
-    color: #F9FAF8;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    align-items: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
 }
 
 .header-logo {
-    font-size: 24px;
-    font-weight: 900;
+  font-size: 24px;
+  font-weight: 900;
+  margin-left: 180px;
+}
+
+.header-nav {
+  margin-right: 180px;
 }
 
 .header-nav a {
-    color: #E5E7EB;
-    text-decoration: none;
-    margin-left: 20px;
-    font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 18px;
 }
 
 /* Heroic */
 .hero {
-    background-color: #1F2937;
-    color: #F9FAF8;
-    display: flex;
-    padding: 50px;
-    justify-content: space-between;
-    align-items: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  padding: 100px 50px;
+  padding-bottom: 100px;
+  align-items: center;
+  flex: auto;
 }
 
 .hero-content {
-    max-width: 50%;
+  margin-left: 160px;
+  margin-right: 200px;
 }
 
 .hero-content h1 {
-    font-size: 48px;
-    font-weight: 900;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: auto;
 }
 
 .hero-content p {
-    font-size: 18px;
-    color: #E5E7EB;
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-top: auto;
 }
 
 .btn-signup {
-    background-color: #3882F6;
-    color: #F9FAF8;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    font-size: 18px;
-    margin-top: 20px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 8px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
 }
 
 .hero-image {
-    max-width: 40%;
+  max-width: 40%;
+  margin-left: auto;
 }
 
 .image-placeholder {
-    background-color: #4B5563;
-    width: 100%;
-    padding-top: 56.25%;
-    position: relative;
-    color: #9CA3AF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #4b5563;
+  width: 520px;
+  height: 240px;
+  margin-right: 150px;
+  margin-left: auto;
+  color: #9ca3af;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
 }
 
-.image-placeholder::before {
-    content: "this is a placeholder for an image";
-    position: absolute;
-    color: #9CA3AF;
+.image-placeholder {
+  content: "this is a placeholder for an image";
+  color: #9ca3af;
 }
 
 /* Inside: Fo */
 .info {
-    padding: 50px;
-    text-align: center;
+  padding: 150px;
+  padding-top: 20px;
+  text-align: center;
+  margin: 0px 120px;
 }
 
 .info h2 {
-    font-size: 36px;
-    font-weight: 900;
-    margin-bottom: 40px;
+  font-size: 36px;
+  font-weight: 1200;
 }
 
 .info-cards {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+}
+
+.box {
+  border: 4.5px solid #3882f6;
+  width: 110px;
+  height: 110px;
+  padding: 25px;
+  border-radius: 15px;
+  margin-top: 10px;
 }
 
 .card {
-    border: 2px solid #3882F6;
-    padding: 20px;
-    width: 22%;
-    box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-text {
+  display: flex;
+  margin: 8px 25px;
+  font-size: large;
 }
 
 /* we've got you on record */
 .quote {
-    background-color: #E5E7EB;
-    padding: 50px;
-    text-align: center;
-    font-size: 36px;
-    font-style: italic;
-    color: #1F2937;
+  background-color: #e5e7eb;
+  padding: 40px 50px;
+  color: #1f2937;
+  margin: 0;
+}
+
+.quote-text {
+  text-align: left;
+  font-size: 35px;
+  font-weight: lighter;
+  font-style: italic;
+  margin: 60px 270px;
+}
+
+.quote-text h2 {
+  text-align: right;
+  font-size: 25px;
+  font-style: normal;
 }
 
 /* Lights, Camera, Action */
 .cta {
-    background-color: #3882F6;
-    color: #F9FAF8;
-    padding: 30px;
-    text-align: center;
-}
-
-.cta p {
-    margin: 0;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 25px 100px;
+  margin: 100px 200px;
+  border-radius: 8px;
 }
 
 .cta-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-text {
+  margin: 25px 0px;
+}
+
+.cta-text p {
+  margin: 0;
+  color: #e5e7eb;
+}
+
+.cta .btn-signup {
+  border: 2px solid #ffffff;
+  padding: 6px 35px;
 }
 
 .cta-content p:first-child {
-    font-size: 24px;
-    font-weight: 900;
-    margin-bottom: 10px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 900;
 }
 
 /* another name for a soccer player */
 .footer {
-    background-color: #1F2937;
-    color: #F9FAF8;
-    padding: 20px;
-    text-align: center;
-    font-size: 14px;
+  background-color: #1f2937;
+  color: #e6e6e6;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
 }
